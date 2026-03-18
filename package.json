@@ -1,0 +1,46 @@
+{
+  "name": "mini-plate-editor",
+  "version": "0.1.0",
+  "description": "A Plate.js WYSIWYG markdown editor with directive support",
+  "main": "src/index.ts",
+  "module": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": "^18 || ^19",
+    "react-dom": "^18 || ^19",
+    "@udecode/plate": "^48",
+    "@udecode/plate-basic-marks": "^48",
+    "@udecode/plate-heading": "^48",
+    "@udecode/plate-block-quote": "^48",
+    "@udecode/plate-horizontal-rule": "^48",
+    "@udecode/plate-list": "^48",
+    "@udecode/plate-media": "^48"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/react": "^18 || ^19",
+    "@types/react-dom": "^18 || ^19",
+    "@udecode/plate": "^48",
+    "@udecode/plate-basic-marks": "^48",
+    "@udecode/plate-heading": "^48",
+    "@udecode/plate-block-quote": "^48",
+    "@udecode/plate-horizontal-rule": "^48",
+    "@udecode/plate-list": "^48",
+    "@udecode/plate-media": "^48",
+    "react": "^19",
+    "react-dom": "^19"
+  },
+  "keywords": [
+    "plate",
+    "editor",
+    "wysiwyg",
+    "markdown",
+    "react"
+  ],
+  "license": "MIT"
+}
